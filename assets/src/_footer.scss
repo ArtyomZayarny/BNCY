@@ -1,0 +1,96 @@
+.footer {
+	padding: 70px 0;
+	text-align: center;
+	&__title-link {
+		display: inline-block;
+		padding-bottom: 23px;
+	}
+	&__copy {
+		color: #81868e;
+		font-family: "Open Sans";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 25px;
+		letter-spacing: 0.7px;
+		padding-bottom: 36px;
+	}
+	&__social {
+
+		&__item {
+			display: inline-block;
+			margin-right: 10px;
+			opacity: 1;
+			transition: all 0.3s ease;
+
+			&__link--fb {
+				background: url(../../img/fb.png)center no-repeat;
+				background-size: cover;
+				display: block;
+				width: 26px;
+				height: 26px;
+
+				opacity: 1;
+				transition: all 0.3s ease;
+				&:hover {
+					opacity: 0.6;
+				}
+
+			}
+			&__link--tw {
+				background: url(../../img/tw.png)center no-repeat;
+				background-size: cover;
+				width: 26px;
+				height: 26px;
+				display: block;
+				opacity: 1;
+				transition: all 0.3s ease;
+				&:hover {
+					opacity: 0.6;
+				}
+
+			}
+			&__link--in {
+				background: url(../../img/in.png)center no-repeat;
+				background-size: cover;
+				width: 26px;
+				height: 26px;
+				display: block;
+				opacity: 1;
+				transition: all 0.3s ease;
+				&:hover {
+					opacity: 0.6;
+				}
+
+			}
+			&__link--ins {
+
+				background: url(../../img/ins.png)center no-repeat;
+				background-size: cover;
+				width: 26px;
+				height: 26px;
+				display: block;
+				opacity: 1;
+				transition: all 0.3s ease;
+				&:hover {
+					opacity: 0.6;
+				}
+
+			}
+			&__link--vm {
+				background: url(../../img/vm.png)center no-repeat;
+				background-size: cover;
+				width: 26px;
+				height: 26px;
+				display: block;
+				opacity: 1;
+				transition: all 0.3s ease;
+				&:hover {
+					opacity: 0.6;
+				}
+
+			}
+
+		}
+
+	}
+}

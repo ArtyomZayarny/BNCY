@@ -1,0 +1,37 @@
+.already {
+	background: url(../../img/4-layers.png) no-repeat center;
+	background-size: cover;
+	padding:60px 0;
+
+	&__text{
+	
+		&__desc {
+			color: #ffffff;
+			font-family: "Open Sans";
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 25px;
+			letter-spacing: 0.8px;
+			padding-bottom: 36px;
+		}
+		&__button {
+			padding: 0 1.5rem;
+    	display: inline-block;
+    	color: #ffffff;
+    	font-family: 'Open Sans', sans-serif;
+    	font-size: 1rem;
+    	font-weight: 400;
+    	line-height: 2.0625rem;
+    	border-radius: 1.0625rem;
+    	border: 1px solid #fff;
+    	transition: all 150ms linear;
+			cursor: pointer;
+			&:hover {
+				background-color: #19bd9a;
+			}
+			
+
+		}
+	}
+
+}
